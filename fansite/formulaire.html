@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="fansite.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    
+    <header>
+        
+        <div class="header">
+            <h1 class="codheader">Call Of Duty</h1>
+
+            <p>
+                <a href="index.html">Accueil</a>
+            </p>
+            
+            <p>
+                <a href="histoire.html">Histoire</a>     
+            </p>
+            
+            <p>
+                <a href="zombie.html">Zombie</a>
+            </p>
+        
+            <p>
+                <a href="esport.html">E-sport</a>
+            </p>
+            
+            <p>
+                <a href="formulaire.html">Contactez nous</a>
+            </p>
+
+        </div>
+
+
+    </header>
+
+    <h1>Contacter nous</h1>
+<p>Remplisez le formulaire pour que nous puissions repondre a vos question.</p>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Prénom</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Prénom..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Nom</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Nom..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Objet</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Esports</option>
+        <option value="canada">Zombie</option>
+        <option value="usa">Histoire</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Votre demande</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Votre demande.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Envoyer">
+  </div>
+  </form>
+</div>
+
+
+
+
+    
+</body>
+</html>
